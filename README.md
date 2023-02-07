@@ -3,7 +3,7 @@ Systematic mapping of multiprotein complexes formed by protein-protein interacti
 
 ## Installation
 
-You can install the `HPiP` from bioconductor using:
+You can install the `MACP` from bioconductor using:
 
 ```r
 install.packages('MACP')
@@ -25,7 +25,7 @@ devtools::install_github("BabuLab-UofR/MACP")
 ```
 ## Contribute
 
-Check the github page for [source code](https://github.com/BabuLab-UofR/HPiP)
+Check the github page for [source code](https://github.com/BabuLab-UofR/MACP)
 
 ## License
 This project is licensed under the MIT License - see the LICENSE.md file for more details.
