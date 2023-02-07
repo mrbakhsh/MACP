@@ -17,6 +17,9 @@ if(!requireNamespace("devtools", quietly = TRUE)) {
 }
 devtools::install_github("BabuLab-UofR/MACP")
 ```
+
+For a detailed introduction to MACP, see the [vignette](https://github.com/BabuLab-UofR/MACP/blob/main/vignettes/MACP_tutorial.Rmd).
+
 ## Contribute
 
 Check the github page for [source code](https://github.com/BabuLab-UofR/MACP)
