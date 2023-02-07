@@ -9,12 +9,6 @@ You can install the `MACP` from bioconductor using:
 install.packages('MACP')
 ```
 
-To view documentation for the version of this package installed in your system, start R and enter:
-
-```r
-browseVignettes("MACP")
-```
-
 To install the development version in `R`, run:
   
 ```r
