@@ -1,2 +1,31 @@
 # MACP
-MACP
+Systematic mapping of multiprotein complexes formed by protein-protein interactions (PPIs) can enhance our knowledge and mechanistic basis of how proteins function in the cells. Co-fractionation coupled with mass spectrometry (CF-MS) is gaining momentum as a cost-effective strategy for charting protein assemblies under native conditions using high-resolution chromatography separation techniques (e.g., size-exclusion and  ion-exchange) without the need for antibodies or tagging of individual proteins. To capture high-quality PPIs from CF-MS co-elution profile, we have developed a well standardized and fully automated CF-MS data analysis software toolkit, referred to as MACP (Macromolecular Assemblies from the Co-elution Profile) in an open-source R package, beginning with the processing of raw co-elution data to reconstruction of high-confidence PPI networks via supervised machine-learning and underlying protein complexes using unsupervised approach.
+
+## Installation
+
+You can install the `HPiP` from bioconductor using:
+
+```r
+install.packages('MACP')
+```
+
+To view documentation for the version of this package installed in your system, start R and enter:
+
+```r
+browseVignettes("MACP")
+```
+
+To install the development version in `R`, run:
+  
+```r
+if(!requireNamespace("devtools", quietly = TRUE)) {
+  install.packages("devtools") 
+}
+devtools::install_github("BabuLab-UofR/MACP")
+```
+## Contribute
+
+Check the github page for [source code](https://github.com/BabuLab-UofR/HPiP)
+
+## License
+This project is licensed under the MIT License - see the LICENSE.md file for more details.
