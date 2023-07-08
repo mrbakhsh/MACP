@@ -11,7 +11,7 @@ Systematic mapping of multiprotein complexes formed by protein-protein interacti
 
 ## Installation
 
-You can install the `MACP` from bioconductor using:
+You can install the `MACP` from CRAN using:
 
 ```r
 install.packages('MACP')
